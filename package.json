@@ -1,6 +1,6 @@
 {
   "name": "app-runner-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deploy your AWS App Runner apps",
   "main": "dist/app-runner-deploy.cjs",
   "scripts": {
