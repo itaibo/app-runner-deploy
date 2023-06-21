@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/itaibo/app-runner-deploy.git"
   },
-  "keywords": [],
+  "keywords": [ "aws", "cd", "github", "app-runner" ],
   "author": "itaibo@hey.com",
   "license": "MIT",
   "bugs": {
