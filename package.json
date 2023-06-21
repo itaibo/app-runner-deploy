@@ -2,12 +2,13 @@
   "name": "app-runner-deploy",
   "version": "0.0.0",
   "description": "Deploy your AWS App Runner apps",
-  "main": "dist/app-runner-deploy.js",
+  "main": "dist/app-runner-deploy.cjs",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && npm run build:rename",
+    "build:rename": "mv dist/app-runner-deploy.js dist/app-runner-deploy.cjs"
   },
   "bin": {
-    "app-runner-deploy": "dist/app-runner-deploy.js"
+    "app-runner-deploy": "dist/app-runner-deploy.cjs"
   },
   "repository": {
     "type": "git",
