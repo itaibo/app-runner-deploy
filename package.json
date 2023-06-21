@@ -1,6 +1,6 @@
 {
   "name": "app-runner-deploy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Deploy your AWS App Runner apps",
   "main": "dist/app-runner-deploy.cjs",
   "scripts": {
@@ -14,7 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/itaibo/app-runner-deploy.git"
   },
-  "keywords": [ "aws", "cd", "github", "app-runner" ],
+  "keywords": [
+    "aws",
+    "cd",
+    "github",
+    "app-runner"
+  ],
   "author": "itaibo@hey.com",
   "license": "MIT",
   "bugs": {
