@@ -34,12 +34,6 @@ on:
       - 'package-lock.json'
       - 'package.json'
       - 'tsconfig.json'
-  pull_request:
-    paths:
-      - 'apps/api/**'
-      - 'package-lock.json'
-      - 'package.json'
-      - 'tsconfig.json'
 
 jobs:
   build:

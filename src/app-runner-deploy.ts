@@ -2,7 +2,10 @@
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
-import { AppRunnerClient, StartDeploymentCommand, StartDeploymentCommandOutput, StartDeploymentRequest } from '@aws-sdk/client-apprunner';
+import {
+	AppRunnerClient, StartDeploymentCommand,
+	StartDeploymentCommandOutput, StartDeploymentRequest,
+} from '@aws-sdk/client-apprunner';
 
 // Type
 type AppRunnerDeployInput = {
